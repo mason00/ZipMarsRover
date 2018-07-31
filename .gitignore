@@ -21,3 +21,10 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+/.vs/MarsRover/v15/.suo
+/.vs/MarsRover/v15/Server/sqlite3
+/MarsRover.Core/bin/Debug/netstandard2.0
+/MarsRover.Core/obj
+/MarsRover.Test/obj/Debug
+/MarsRover.Tests/bin/Debug/netcoreapp2.0
+/MarsRover.Tests/obj
