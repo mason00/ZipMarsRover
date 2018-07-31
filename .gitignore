@@ -28,3 +28,6 @@ $RECYCLE.BIN/
 /MarsRover.Test/obj/Debug
 /MarsRover.Tests/bin/Debug/netcoreapp2.0
 /MarsRover.Tests/obj
+/.vs/MarsRover/DesignTimeBuild
+/MarsRover/bin/Debug/netcoreapp2.0
+/MarsRover/obj
