@@ -6,7 +6,7 @@ namespace MarsRover.Core
     {
         public Plateau ReadPlateauBoundary(string plateauInput)
         {
-            if (plateauInput != null)
+            if (!string.IsNullOrWhiteSpace(plateauInput))
             {
                 var parts = plateauInput.Trim().Split(' ');
                 if (parts.Length == 2)
@@ -22,7 +22,7 @@ namespace MarsRover.Core
 
         public Location ReadRoverLocation(string roverPositionInput)
         {
-            if (roverPositionInput != null)
+            if (!string.IsNullOrWhiteSpace(roverPositionInput))
             {
                 var parts = roverPositionInput.Trim().Split(' ');
                 if (parts.Length == 3)
@@ -39,7 +39,7 @@ namespace MarsRover.Core
 
         public string ReadRoverCommand(string roverCommandInput)
         {
-            if (roverCommandInput != null)
+            if (!string.IsNullOrWhiteSpace(roverCommandInput))
             {
                 var command = roverCommandInput.Trim();
                 foreach(var c in command)
